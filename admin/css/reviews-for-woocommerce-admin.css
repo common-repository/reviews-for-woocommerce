@@ -1,0 +1,114 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ 
+/* Custom CSS */
+.rfw_information {
+    display: flex;
+}
+
+.rfw_information .info {
+    width: 75%;
+    background: ghostwhite;
+    padding: 0px 20px;
+}
+
+.rfw_information h4 {
+    font-size: 18px;
+}
+
+.rfw_information p {
+    font-size: 16px;
+}
+
+.rfw_information ul {
+    font-size: 16px;
+    list-style: square;
+    margin-left: 35px;
+}
+.rfw_information .marketing {
+    width: 25%;
+    background: ghostwhite;
+    margin-left: 10px;
+}
+
+.rfw_information .marketing img {
+    width: 100%;
+    border: 1px solid;
+}
+.rfw_information .credit {
+    text-align: center;
+}
+
+.rfw_information .credit ul {
+    list-style: none;
+}
+.rfw_btn a {
+    display: block;
+    text-decoration: none;
+    background:#f6861e;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+.rfw_btn a:hover{
+    background-color: #13294b;
+    }
+  
+p.plug-name {
+    font-size: 23px;
+    font-weight: 400;
+}
+.email-form{
+    display: flex;
+    align-items: center;
+}
+input[type="email"] {
+    width: 200px;
+    box-sizing: border-box;
+}
+.email-button{
+    background: #f6861e;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.email-button:hover{
+    background-color: #13294b;
+}
+
+/* CSS for Header */
+.rfw-header {
+    background-color: #3e7da6; /* Your header background color */
+    color: #000000; /* Text color for the header */
+    padding: 3px 13px;
+    text-align: center;
+    margin-left: -21px;
+}
+  
+.rfw-header h1 {
+margin-bottom: 10px;
+font-size: 24px;
+color: white;
+}
+  
+.rfw-header {
+display: flex;
+align-items: center;
+}
+
+/* CSS for Logo */  
+.logo {
+margin-right: 20px; 
+}
+  
+.logo img {
+max-width:80px; 
+height: auto;
+}
+  
